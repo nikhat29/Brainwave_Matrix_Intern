@@ -79,8 +79,8 @@ const updateTaskList = () => {
           <p>${task.inputText}</p>
           </div>
           <div class="icons">
-          <img src="images/pen.png" alt="edit" onClick="editTask(${index})"/>
-          <img src="images/delete.png" alt="delete"onClick ="deleteTask(${index})"/>
+          <img src="pen.png" alt="edit" onClick="editTask(${index})"/>
+          <img src="delete.png" alt="delete"onClick ="deleteTask(${index})"/>
           </div>
         </div>`;
     listItem.addEventListener("change", () => toggleTaskComplete(index));
